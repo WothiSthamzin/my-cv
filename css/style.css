@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; /* Light gray background */
+  color: #333; /* Dark gray text color */
+}
+
+header {
+  background-color: #007bff; /* Blue header background */
+  color: #fff; /* White text color */
+  padding: 20px;
+  text-align: left;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-right: 20px;
+}
+
+img {
+  border-left: 50%;
+  margin-top: 10px;
+  display: block;
+  margin-left: left;
+  margin-right: auto;
+}
+
+section {
+  background-color: #fff; /* White background for sections */
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+h2 {
+  color: #007bff; /* Blue heading color */
+  margin-bottom: 10px;
+}
+
+ul {
+  padding: 0;
+  margin-top: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #007bff; /* Blue footer background */
+  color: #fff; /* White text color */
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Integrated Styles from Provided CSS */
+
+.header-content {
+  display: flex;
+  align-items: center; /* Center items vertically */
+}
+
+fieldset {
+  border: none; /* Remove default fieldset border */
+  margin-right: 20px; /* Add space between fieldsets */
+}
+
+.image-fieldset {
+  width: auto; /* Ensure the fieldset adjusts its width based on content */
+  display: inline-flex; /* Make the fieldset inline with the content */
+  align-items: center; /* Center items vertically */
+}
